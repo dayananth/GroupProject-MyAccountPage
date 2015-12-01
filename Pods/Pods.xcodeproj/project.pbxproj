@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1CAFAF85E4484786B8B30377C70FD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1599C0EEAEB624EFF81F0B427A211C89 /* HTAutocompleteTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 842CA3772AD5AEE9035B418FD616DEC7 /* HTAutocompleteTextField-dummy.m */; };
+		28E96BF18D1564BC37583D1EE632E5A4 /* HTAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A680D3093E9DA5C04C763FB630B978 /* HTAutocompleteTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F186EADD8B814C3629D934B80DB151E /* HTEmailAutocompleteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1677CECB198E0483440F3A1FE5E14144 /* HTEmailAutocompleteTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B306D287D7D3082497B8F526854C8D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C9CAB8D377A84FD594F06C7C6963C4D7 /* HTEmailAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ED8F98437D378A431B977BCA93E9D6 /* HTEmailAutocompleteTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7F25076036554382BF2EDD01D76D72E /* HTAutocompleteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FAB2AFE3B16CFC7A20B71632C96CF1 /* HTAutocompleteTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA83B56D47F65147171B810305C636F /* Pods-UIScrollSlidingPages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEF569AC98B4A42F58AD47F88AD56D /* Pods-UIScrollSlidingPages-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8550D647FCC03018BEE5EF5C191CA31F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44387EBC949E8899C4706A0DE9B5D6C6;
+			remoteInfo = HTAutocompleteTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CD3B11C27BDC2B9A5C15D2D002F092 /* Pods-UIScrollSlidingPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollSlidingPages.release.xcconfig"; sourceTree = "<group>"; };
+		114E86D06EDD632A6D746765F86CE2C7 /* libPods-UIScrollSlidingPages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIScrollSlidingPages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1677CECB198E0483440F3A1FE5E14144 /* HTEmailAutocompleteTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTEmailAutocompleteTextField.h; path = Classes/HTEmailAutocompleteTextField.h; sourceTree = "<group>"; };
+		182FF8EE7F70BE8A2EA2B47381F364B5 /* Pods-UIScrollSlidingPages-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIScrollSlidingPages-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B10DA32C01EC0C02BE6FEAE81BB83ED /* HTAutocompleteTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTAutocompleteTextField.xcconfig; sourceTree = "<group>"; };
+		1B907CB5049ABE543D8EB3ED42B611CD /* libHTAutocompleteTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTAutocompleteTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4392D80831048D69F19D7FFBF5335E8A /* Pods-UIScrollSlidingPages-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollSlidingPages-frameworks.sh"; sourceTree = "<group>"; };
+		61A680D3093E9DA5C04C763FB630B978 /* HTAutocompleteTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTAutocompleteTextField.m; path = Classes/HTAutocompleteTextField.m; sourceTree = "<group>"; };
+		65ED8F98437D378A431B977BCA93E9D6 /* HTEmailAutocompleteTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTEmailAutocompleteTextField.m; path = Classes/HTEmailAutocompleteTextField.m; sourceTree = "<group>"; };
+		767BAAC3B2F1118839CC1F23A0A70CBA /* Pods-UIScrollSlidingPages-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIScrollSlidingPages-acknowledgements.markdown"; sourceTree = "<group>"; };
+		842CA3772AD5AEE9035B418FD616DEC7 /* HTAutocompleteTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTAutocompleteTextField-dummy.m"; sourceTree = "<group>"; };
+		92F41F7A889512D98C95BD2F5C527E11 /* Pods-UIScrollSlidingPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIScrollSlidingPages.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBEF569AC98B4A42F58AD47F88AD56D /* Pods-UIScrollSlidingPages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIScrollSlidingPages-dummy.m"; sourceTree = "<group>"; };
+		B7FAB2AFE3B16CFC7A20B71632C96CF1 /* HTAutocompleteTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTAutocompleteTextField.h; path = Classes/HTAutocompleteTextField.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C038B63C881E921D3B9C93D14301A54C /* HTAutocompleteTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTAutocompleteTextField-prefix.pch"; sourceTree = "<group>"; };
+		F952AF107ED34C8597831F4306692781 /* Pods-UIScrollSlidingPages-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIScrollSlidingPages-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF9827C99A2D1C3D3176456081FB195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1CAFAF85E4484786B8B30377C70FD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCF4D45895BD25FE2E47FF9A860770F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B306D287D7D3082497B8F526854C8D4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6419F7B17D84548609C3C648321E55AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B907CB5049ABE543D8EB3ED42B611CD /* libHTAutocompleteTextField.a */,
+				114E86D06EDD632A6D746765F86CE2C7 /* libPods-UIScrollSlidingPages.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AB5B544F9710CBCB05600F71118DDEFD /* Pods */,
+				6419F7B17D84548609C3C648321E55AB /* Products */,
+				CAC52E33D83803A136955F083570E03C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5B544F9710CBCB05600F71118DDEFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E2B7C38E3F87AABD44F77D29FD5FF /* HTAutocompleteTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2B4A355092473A01E5BF75E860C602 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B10DA32C01EC0C02BE6FEAE81BB83ED /* HTAutocompleteTextField.xcconfig */,
+				842CA3772AD5AEE9035B418FD616DEC7 /* HTAutocompleteTextField-dummy.m */,
+				C038B63C881E921D3B9C93D14301A54C /* HTAutocompleteTextField-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTAutocompleteTextField";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C45696A13AB5436FEC8E9ECEEA22A0C3 /* Pods-UIScrollSlidingPages */ = {
+			isa = PBXGroup;
+			children = (
+				767BAAC3B2F1118839CC1F23A0A70CBA /* Pods-UIScrollSlidingPages-acknowledgements.markdown */,
+				182FF8EE7F70BE8A2EA2B47381F364B5 /* Pods-UIScrollSlidingPages-acknowledgements.plist */,
+				9FBEF569AC98B4A42F58AD47F88AD56D /* Pods-UIScrollSlidingPages-dummy.m */,
+				4392D80831048D69F19D7FFBF5335E8A /* Pods-UIScrollSlidingPages-frameworks.sh */,
+				F952AF107ED34C8597831F4306692781 /* Pods-UIScrollSlidingPages-resources.sh */,
+				92F41F7A889512D98C95BD2F5C527E11 /* Pods-UIScrollSlidingPages.debug.xcconfig */,
+				05CD3B11C27BDC2B9A5C15D2D002F092 /* Pods-UIScrollSlidingPages.release.xcconfig */,
+			);
+			name = "Pods-UIScrollSlidingPages";
+			path = "Target Support Files/Pods-UIScrollSlidingPages";
+			sourceTree = "<group>";
+		};
+		CAC52E33D83803A136955F083570E03C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45696A13AB5436FEC8E9ECEEA22A0C3 /* Pods-UIScrollSlidingPages */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE6E2B7C38E3F87AABD44F77D29FD5FF /* HTAutocompleteTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B7FAB2AFE3B16CFC7A20B71632C96CF1 /* HTAutocompleteTextField.h */,
+				61A680D3093E9DA5C04C763FB630B978 /* HTAutocompleteTextField.m */,
+				1677CECB198E0483440F3A1FE5E14144 /* HTEmailAutocompleteTextField.h */,
+				65ED8F98437D378A431B977BCA93E9D6 /* HTEmailAutocompleteTextField.m */,
+				BD2B4A355092473A01E5BF75E860C602 /* Support Files */,
+			);
+			path = HTAutocompleteTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		188BF4E9709E4383DE96BEA912BD1D0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F25076036554382BF2EDD01D76D72E /* HTAutocompleteTextField.h in Headers */,
+				2F186EADD8B814C3629D934B80DB151E /* HTEmailAutocompleteTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		270A8EE076757CCCAE42F259BEF89BF1 /* Pods-UIScrollSlidingPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E82FBC55D805C0CCC2A7671C160A22 /* Build configuration list for PBXNativeTarget "Pods-UIScrollSlidingPages" */;
+			buildPhases = (
+				A86560FBF6CA018E8A92C77A48C96BDC /* Sources */,
+				0FF9827C99A2D1C3D3176456081FB195 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01D426535E0434063A00D888858A7A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIScrollSlidingPages";
+			productName = "Pods-UIScrollSlidingPages";
+			productReference = 114E86D06EDD632A6D746765F86CE2C7 /* libPods-UIScrollSlidingPages.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		44387EBC949E8899C4706A0DE9B5D6C6 /* HTAutocompleteTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87ADCD790148484399F273A4D5D109E9 /* Build configuration list for PBXNativeTarget "HTAutocompleteTextField" */;
+			buildPhases = (
+				A70601498DB3FE0023E45D0CCB739A08 /* Sources */,
+				2FCF4D45895BD25FE2E47FF9A860770F /* Frameworks */,
+				188BF4E9709E4383DE96BEA912BD1D0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTAutocompleteTextField;
+			productName = HTAutocompleteTextField;
+			productReference = 1B907CB5049ABE543D8EB3ED42B611CD /* libHTAutocompleteTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6419F7B17D84548609C3C648321E55AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44387EBC949E8899C4706A0DE9B5D6C6 /* HTAutocompleteTextField */,
+				270A8EE076757CCCAE42F259BEF89BF1 /* Pods-UIScrollSlidingPages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70601498DB3FE0023E45D0CCB739A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1599C0EEAEB624EFF81F0B427A211C89 /* HTAutocompleteTextField-dummy.m in Sources */,
+				28E96BF18D1564BC37583D1EE632E5A4 /* HTAutocompleteTextField.m in Sources */,
+				C9CAB8D377A84FD594F06C7C6963C4D7 /* HTEmailAutocompleteTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86560FBF6CA018E8A92C77A48C96BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA83B56D47F65147171B810305C636F /* Pods-UIScrollSlidingPages-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F01D426535E0434063A00D888858A7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTAutocompleteTextField;
+			target = 44387EBC949E8899C4706A0DE9B5D6C6 /* HTAutocompleteTextField */;
+			targetProxy = 8550D647FCC03018BEE5EF5C191CA31F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D8A2C96E744FCBF2CA286FD6394680D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F41F7A889512D98C95BD2F5C527E11 /* Pods-UIScrollSlidingPages.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A79697656A9480C2EF8207753FD58D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B10DA32C01EC0C02BE6FEAE81BB83ED /* HTAutocompleteTextField.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B43A72A0E5A6B019DDE8EE5E051113F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5372B11807A349EC27329D2DBAE6C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5912A4CEB174B1C1FB0700ACC42315A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B10DA32C01EC0C02BE6FEAE81BB83ED /* HTAutocompleteTextField.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTAutocompleteTextField/HTAutocompleteTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC8C624E92D2B52100F98707B11BD7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CD3B11C27BDC2B9A5C15D2D002F092 /* Pods-UIScrollSlidingPages.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43A72A0E5A6B019DDE8EE5E051113F3 /* Debug */,
+				C5372B11807A349EC27329D2DBAE6C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87ADCD790148484399F273A4D5D109E9 /* Build configuration list for PBXNativeTarget "HTAutocompleteTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5912A4CEB174B1C1FB0700ACC42315A /* Debug */,
+				A79697656A9480C2EF8207753FD58D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E82FBC55D805C0CCC2A7671C160A22 /* Build configuration list for PBXNativeTarget "Pods-UIScrollSlidingPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8A2C96E744FCBF2CA286FD6394680D /* Debug */,
+				FC8C624E92D2B52100F98707B11BD7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
