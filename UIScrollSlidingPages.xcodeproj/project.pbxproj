@@ -15,6 +15,15 @@
 		0C872DA91C0D6A6A0069B2A4 /* MyPurchasesAndCouponsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C872DA71C0D6A6A0069B2A4 /* MyPurchasesAndCouponsViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		0C872DB01C0D6AB40069B2A4 /* MyAccountInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C872DAE1C0D6AB40069B2A4 /* MyAccountInformationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		0C872DB11C0D6AB40069B2A4 /* MyAccountInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C872DAF1C0D6AB40069B2A4 /* MyAccountInformationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		0C872E221C0DA41D0069B2A4 /* HTAutocompleteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C872E211C0DA41D0069B2A4 /* HTAutocompleteManager.m */; settings = {ASSET_TAGS = (); }; };
+		0C872E241C0DBD390069B2A4 /* symbol_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C872E231C0DBD390069B2A4 /* symbol_add.png */; settings = {ASSET_TAGS = (); }; };
+		0CE872291C0DD8AB00923C15 /* InterestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE872271C0DD8AB00923C15 /* InterestCell.m */; settings = {ASSET_TAGS = (); }; };
+		0CE8722A1C0DD8AB00923C15 /* InterestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE872281C0DD8AB00923C15 /* InterestCell.xib */; settings = {ASSET_TAGS = (); }; };
+		0CE872311C0DD8E000923C15 /* AutocompleteTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8722F1C0DD8E000923C15 /* AutocompleteTextFieldCell.m */; settings = {ASSET_TAGS = (); }; };
+		0CE872321C0DD8E000923C15 /* AutocompleteTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE872301C0DD8E000923C15 /* AutocompleteTextFieldCell.xib */; settings = {ASSET_TAGS = (); }; };
+		0CE872361C0DD91C00923C15 /* AddImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE872341C0DD91C00923C15 /* AddImageCell.m */; settings = {ASSET_TAGS = (); }; };
+		0CE872371C0DD91C00923C15 /* AddImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE872351C0DD91C00923C15 /* AddImageCell.xib */; settings = {ASSET_TAGS = (); }; };
+		72CA4B12E4A97EEB3B49CF44 /* libPods-UIScrollSlidingPages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B6FE8E86045500CD815749 /* libPods-UIScrollSlidingPages.a */; };
 		9F2035E61706475B00438E50 /* diagmonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2035E31706475B00438E50 /* diagmonds.png */; };
 		9F2035E71706475B00438E50 /* diagmonds_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2035E41706475B00438E50 /* diagmonds_@2X.png */; };
 		9F2035E81706475B00438E50 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F2035E51706475B00438E50 /* readme.txt */; };
@@ -55,7 +64,20 @@
 		0C872DAD1C0D6AB40069B2A4 /* MyAccountInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountInformationViewController.h; sourceTree = "<group>"; };
 		0C872DAE1C0D6AB40069B2A4 /* MyAccountInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountInformationViewController.m; sourceTree = "<group>"; };
 		0C872DAF1C0D6AB40069B2A4 /* MyAccountInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAccountInformationViewController.xib; sourceTree = "<group>"; };
+		0C872E201C0DA41D0069B2A4 /* HTAutocompleteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAutocompleteManager.h; sourceTree = "<group>"; };
+		0C872E211C0DA41D0069B2A4 /* HTAutocompleteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAutocompleteManager.m; sourceTree = "<group>"; };
+		0C872E231C0DBD390069B2A4 /* symbol_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symbol_add.png; sourceTree = "<group>"; };
+		0CE872261C0DD8AB00923C15 /* InterestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestCell.h; sourceTree = "<group>"; };
+		0CE872271C0DD8AB00923C15 /* InterestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestCell.m; sourceTree = "<group>"; };
+		0CE872281C0DD8AB00923C15 /* InterestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterestCell.xib; sourceTree = "<group>"; };
+		0CE8722E1C0DD8E000923C15 /* AutocompleteTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteTextFieldCell.h; sourceTree = "<group>"; };
+		0CE8722F1C0DD8E000923C15 /* AutocompleteTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteTextFieldCell.m; sourceTree = "<group>"; };
+		0CE872301C0DD8E000923C15 /* AutocompleteTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutocompleteTextFieldCell.xib; sourceTree = "<group>"; };
+		0CE872331C0DD91C00923C15 /* AddImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageCell.h; sourceTree = "<group>"; };
+		0CE872341C0DD91C00923C15 /* AddImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageCell.m; sourceTree = "<group>"; };
+		0CE872351C0DD91C00923C15 /* AddImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddImageCell.xib; sourceTree = "<group>"; };
 		37989C431852727A00A97623 /* TTSliddingPageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSliddingPageDelegate.h; sourceTree = "<group>"; };
+		69B6FE8E86045500CD815749 /* libPods-UIScrollSlidingPages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIScrollSlidingPages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2035E31706475B00438E50 /* diagmonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diagmonds.png; sourceTree = "<group>"; };
 		9F2035E41706475B00438E50 /* diagmonds_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diagmonds_@2X.png"; sourceTree = "<group>"; };
 		9F2035E51706475B00438E50 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
@@ -95,6 +117,8 @@
 		9F9B9BA7170387BE00CD45B4 /* TTSlidingPagesDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSlidingPagesDataSource.h; sourceTree = "<group>"; };
 		9FFDC5CA1722EEA1002A5689 /* TTScrollViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollViewWrapper.h; sourceTree = "<group>"; };
 		9FFDC5CB1722EEA1002A5689 /* TTScrollViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTScrollViewWrapper.m; sourceTree = "<group>"; };
+		B6EAC62A93B75ECFA349E75A /* Pods-UIScrollSlidingPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollSlidingPages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIScrollSlidingPages/Pods-UIScrollSlidingPages.debug.xcconfig"; sourceTree = "<group>"; };
+		FE02397B967871F9B7FFECF8 /* Pods-UIScrollSlidingPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollSlidingPages.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIScrollSlidingPages/Pods-UIScrollSlidingPages.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +129,45 @@
 				9F70248A16DBF6650003B5FA /* UIKit.framework in Frameworks */,
 				9F70248C16DBF6650003B5FA /* Foundation.framework in Frameworks */,
 				9F70248E16DBF6650003B5FA /* CoreGraphics.framework in Frameworks */,
+				72CA4B12E4A97EEB3B49CF44 /* libPods-UIScrollSlidingPages.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09CE15FB23ADACB65F3DF5AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6EAC62A93B75ECFA349E75A /* Pods-UIScrollSlidingPages.debug.xcconfig */,
+				FE02397B967871F9B7FFECF8 /* Pods-UIScrollSlidingPages.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0C872E1F1C0DA3D40069B2A4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		0CE872251C0DD88400923C15 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				0CE872261C0DD8AB00923C15 /* InterestCell.h */,
+				0CE872271C0DD8AB00923C15 /* InterestCell.m */,
+				0CE872281C0DD8AB00923C15 /* InterestCell.xib */,
+				0CE8722E1C0DD8E000923C15 /* AutocompleteTextFieldCell.h */,
+				0CE8722F1C0DD8E000923C15 /* AutocompleteTextFieldCell.m */,
+				0CE872301C0DD8E000923C15 /* AutocompleteTextFieldCell.xib */,
+				0CE872331C0DD91C00923C15 /* AddImageCell.h */,
+				0CE872341C0DD91C00923C15 /* AddImageCell.m */,
+				0CE872351C0DD91C00923C15 /* AddImageCell.xib */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
 		9F2035E11706475B00438E50 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +179,7 @@
 		9F2035E21706475B00438E50 /* diagmonds */ = {
 			isa = PBXGroup;
 			children = (
+				0C872E231C0DBD390069B2A4 /* symbol_add.png */,
 				9F2035E31706475B00438E50 /* diagmonds.png */,
 				9F2035E41706475B00438E50 /* diagmonds_@2X.png */,
 				9F2035E51706475B00438E50 /* readme.txt */,
@@ -141,8 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				9F70248F16DBF6650003B5FA /* UIScrollViewSlidingPages */,
-				9F70248816DBF6650003B5FA /* Frameworks */,
 				9F70248716DBF6650003B5FA /* Products */,
+				09CE15FB23ADACB65F3DF5AA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,13 +218,16 @@
 				9F70248916DBF6650003B5FA /* UIKit.framework */,
 				9F70248B16DBF6650003B5FA /* Foundation.framework */,
 				9F70248D16DBF6650003B5FA /* CoreGraphics.framework */,
+				69B6FE8E86045500CD815749 /* libPods-UIScrollSlidingPages.a */,
 			);
 			name = Frameworks;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9F70248F16DBF6650003B5FA /* UIScrollViewSlidingPages */ = {
 			isa = PBXGroup;
 			children = (
+				0C872E1F1C0DA3D40069B2A4 /* New Group */,
 				9F9B9B9D1703763E00CD45B4 /* SupportingLibraries */,
 				9F7024C416DBF7270003B5FA /* Demo */,
 				9F7024C016DBF6C00003B5FA /* Source */,
@@ -210,6 +271,7 @@
 		9F7024C416DBF7270003B5FA /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				0CE872251C0DD88400923C15 /* TableCells */,
 				9F2035E9170648E600438E50 /* Images */,
 				9F9B9B981703758A00CD45B4 /* TTViewController.h */,
 				9F9B9B991703758A00CD45B4 /* TTViewController.m */,
@@ -222,6 +284,9 @@
 				0C4B9AD71C07C8780074417C /* UserAccountViewController.h */,
 				0C4B9AD81C07C8780074417C /* UserAccountViewController.m */,
 				0C4B9AD91C07C8780074417C /* UserAccountViewController.xib */,
+				0C872E211C0DA41D0069B2A4 /* HTAutocompleteManager.m */,
+				0C872E201C0DA41D0069B2A4 /* HTAutocompleteManager.h */,
+				9F70248816DBF6650003B5FA /* Frameworks */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -265,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F7024BD16DBF6650003B5FA /* Build configuration list for PBXNativeTarget "UIScrollSlidingPages" */;
 			buildPhases = (
+				DDFE57E7C8DD75F8CD718166 /* Check Pods Manifest.lock */,
 				9F70248216DBF6650003B5FA /* Sources */,
 				9F70248316DBF6650003B5FA /* Frameworks */,
 				9F70248416DBF6650003B5FA /* Resources */,
+				D89AA627F618C368B0E7D100 /* Embed Pods Frameworks */,
+				A69F528649D02ECA161C307B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,16 +387,68 @@
 				9F7024CF16DBF7F80003B5FA /* TabTwoViewController.xib in Resources */,
 				0C872DB11C0D6AB40069B2A4 /* MyAccountInformationViewController.xib in Resources */,
 				0C872DA91C0D6A6A0069B2A4 /* MyPurchasesAndCouponsViewController.xib in Resources */,
+				0CE8722A1C0DD8AB00923C15 /* InterestCell.xib in Resources */,
 				9F7024D116DBFBE20003B5FA /* FancyCellView.xib in Resources */,
 				9F9B9B9C1703758A00CD45B4 /* TTViewController.xib in Resources */,
 				9F2035E61706475B00438E50 /* diagmonds.png in Resources */,
 				9F2035E71706475B00438E50 /* diagmonds_@2X.png in Resources */,
 				9F2035E81706475B00438E50 /* readme.txt in Resources */,
+				0CE872321C0DD8E000923C15 /* AutocompleteTextFieldCell.xib in Resources */,
 				9F2035EB170648E600438E50 /* about-tomthorpelogo.png in Resources */,
+				0CE872371C0DD91C00923C15 /* AddImageCell.xib in Resources */,
+				0C872E241C0DBD390069B2A4 /* symbol_add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A69F528649D02ECA161C307B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIScrollSlidingPages/Pods-UIScrollSlidingPages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89AA627F618C368B0E7D100 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIScrollSlidingPages/Pods-UIScrollSlidingPages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFE57E7C8DD75F8CD718166 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F70248216DBF6650003B5FA /* Sources */ = {
@@ -343,9 +463,13 @@
 				9F9B9B9B1703758A00CD45B4 /* TTViewController.m in Sources */,
 				9F9B9BA117037C0B00CD45B4 /* TTScrollSlidingPagesController.m in Sources */,
 				9F9B9BA51703836D00CD45B4 /* TTSlidingPage.m in Sources */,
+				0CE872291C0DD8AB00923C15 /* InterestCell.m in Sources */,
 				0C872DB01C0D6AB40069B2A4 /* MyAccountInformationViewController.m in Sources */,
 				9F936B55170650EF001622D8 /* TTSlidingPageTitle.m in Sources */,
+				0CE872361C0DD91C00923C15 /* AddImageCell.m in Sources */,
+				0CE872311C0DD8E000923C15 /* AutocompleteTextFieldCell.m in Sources */,
 				0C872DA81C0D6A6A0069B2A4 /* MyPurchasesAndCouponsViewController.m in Sources */,
+				0C872E221C0DA41D0069B2A4 /* HTAutocompleteManager.m in Sources */,
 				0C4B9ADA1C07C8780074417C /* UserAccountViewController.m in Sources */,
 				9F602A67171E083F00088A9C /* TTBlackTriangle.m in Sources */,
 				9FFDC5CC1722EEA1002A5689 /* TTScrollViewWrapper.m in Sources */,
@@ -428,6 +552,7 @@
 		};
 		9F7024BE16DBF6650003B5FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EAC62A93B75ECFA349E75A /* Pods-UIScrollSlidingPages.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -442,6 +567,7 @@
 		};
 		9F7024BF16DBF6650003B5FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE02397B967871F9B7FFECF8 /* Pods-UIScrollSlidingPages.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
