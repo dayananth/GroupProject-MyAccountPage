@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WXTabBarController.h"
 
-@interface TTAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface TTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UITabBarController *tabBarController;

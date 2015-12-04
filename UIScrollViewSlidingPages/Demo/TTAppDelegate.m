@@ -10,12 +10,37 @@
 
 #import "TableViews/TabTwoViewController.h"
 #import "TTViewController.h"
+#import "UserAccountViewController.h"
+#import "WXTabBarController.h"
+#import "ViewController.h"
+#import "UserAccountViewController.h"
+
+@interface TTAppDelegate ()
+
+@property (nonatomic, strong) UINavigationController *navigationController;
+
+@end
 
 @implementation TTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (UINavigationController *)navigationController {
+    if (_navigationController == nil) {
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController: self.tabBarController];//[[TabTwoViewController alloc] init]];
+//        navigationController.navigationBar.tintColor = [UIColor colorWithRed:26 / 255.0 green:178 / 255.0 blue:10 / 255.0 alpha:0];
+        [navigationController setNavigationBarHidden:YES animated:YES];
+        _navigationController = navigationController;
+    }
+    return _navigationController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -58,5 +83,44 @@
 {
 }
 */
+- (UITabBarController *)tabBarController {
+    if (_tabBarController == nil) {
+        UITabBarController *tabBarController = [[UITabBarController alloc] init];
+        
+        UserAccountViewController *userAccountViewController = ({
+            UserAccountViewController *userAccountViewController = [[UserAccountViewController alloc] init];
+            userAccountViewController.title = @"tab-1";
+            
+            userAccountViewController.view.backgroundColor = [UIColor colorWithRed:48 / 255.0 green:67 / 255.0 blue:78 / 255.0 alpha:1];
+            
+            userAccountViewController;
+        });
+        
+        ViewController *contactsViewController = ({
+            ViewController *contactsViewController = [[ViewController alloc] init];
+            contactsViewController.title = @"tab-2";
+            contactsViewController.view.backgroundColor = [UIColor colorWithRed:115 / 255.0 green:155 / 255.0 blue:6 / 255.0 alpha:1];
+            
+            contactsViewController;
+        });
+        
+        tabBarController.title = @"微信";
+        [tabBarController setViewControllers:[[NSArray alloc] initWithObjects:userAccountViewController, contactsViewController, nil]];
+//        viewControllers = @[ mainframeViewController, contactsViewController];
+        tabBarController.tabBar.tintColor = [UIColor colorWithRed:26 / 255.0 green:178 / 255.0 blue:10 / 255.0 alpha:1];
+        
+        _tabBarController = tabBarController;
+    }
+    return _tabBarController;
+}
+
+- (void)didClickAddButton:(id)sender {
+    ViewController *viewController = [[ViewController alloc] init];
+    
+    viewController.title = @"添加";
+    viewController.view.backgroundColor = [UIColor colorWithRed:26 / 255.0 green:178 / 255.0 blue:10 / 255.0 alpha:1];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+}
 
 @end
