@@ -23,6 +23,15 @@
 		0CE872321C0DD8E000923C15 /* AutocompleteTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE872301C0DD8E000923C15 /* AutocompleteTextFieldCell.xib */; settings = {ASSET_TAGS = (); }; };
 		0CE872361C0DD91C00923C15 /* AddImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE872341C0DD91C00923C15 /* AddImageCell.m */; settings = {ASSET_TAGS = (); }; };
 		0CE872371C0DD91C00923C15 /* AddImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE872351C0DD91C00923C15 /* AddImageCell.xib */; settings = {ASSET_TAGS = (); }; };
+		0CE8723A1C10992700923C15 /* WXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE872381C10992700923C15 /* WXTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		0CE8723E1C10A43000923C15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8723D1C10A43000923C15 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0CF1A40E1C1176270047BA86 /* MyAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF1A4011C1176270047BA86 /* MyAccountTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		0CF1A40F1C1176270047BA86 /* couponParseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1A4031C1176270047BA86 /* couponParseClient.m */; settings = {ASSET_TAGS = (); }; };
+		0CF1A4101C1176270047BA86 /* GrouponCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1A4051C1176270047BA86 /* GrouponCoupon.m */; settings = {ASSET_TAGS = (); }; };
+		0CF1A4111C1176270047BA86 /* GrouponDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1A4071C1176270047BA86 /* GrouponDeal.m */; settings = {ASSET_TAGS = (); }; };
+		0CF1A4121C1176270047BA86 /* MyAccountHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1A4091C1176270047BA86 /* MyAccountHeaderTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		0CF1A4131C1176270047BA86 /* MyAccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1A40B1C1176270047BA86 /* MyAccountTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		0CF1A4141C1176270047BA86 /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1A40D1C1176270047BA86 /* MyAccountViewController.m */; settings = {ASSET_TAGS = (); }; };
 		72CA4B12E4A97EEB3B49CF44 /* libPods-UIScrollSlidingPages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B6FE8E86045500CD815749 /* libPods-UIScrollSlidingPages.a */; };
 		9F2035E61706475B00438E50 /* diagmonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2035E31706475B00438E50 /* diagmonds.png */; };
 		9F2035E71706475B00438E50 /* diagmonds_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2035E41706475B00438E50 /* diagmonds_@2X.png */; };
@@ -76,6 +85,23 @@
 		0CE872331C0DD91C00923C15 /* AddImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageCell.h; sourceTree = "<group>"; };
 		0CE872341C0DD91C00923C15 /* AddImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageCell.m; sourceTree = "<group>"; };
 		0CE872351C0DD91C00923C15 /* AddImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddImageCell.xib; sourceTree = "<group>"; };
+		0CE872381C10992700923C15 /* WXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTabBarController.m; sourceTree = "<group>"; };
+		0CE872391C10992700923C15 /* WXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTabBarController.h; sourceTree = "<group>"; };
+		0CE8723C1C10A43000923C15 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CE8723D1C10A43000923C15 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CF1A4011C1176270047BA86 /* MyAccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAccountTableViewCell.xib; sourceTree = "<group>"; };
+		0CF1A4021C1176270047BA86 /* couponParseClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = couponParseClient.h; sourceTree = "<group>"; };
+		0CF1A4031C1176270047BA86 /* couponParseClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = couponParseClient.m; sourceTree = "<group>"; };
+		0CF1A4041C1176270047BA86 /* GrouponCoupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrouponCoupon.h; sourceTree = "<group>"; };
+		0CF1A4051C1176270047BA86 /* GrouponCoupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrouponCoupon.m; sourceTree = "<group>"; };
+		0CF1A4061C1176270047BA86 /* GrouponDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrouponDeal.h; sourceTree = "<group>"; };
+		0CF1A4071C1176270047BA86 /* GrouponDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrouponDeal.m; sourceTree = "<group>"; };
+		0CF1A4081C1176270047BA86 /* MyAccountHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountHeaderTableViewCell.h; sourceTree = "<group>"; };
+		0CF1A4091C1176270047BA86 /* MyAccountHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountHeaderTableViewCell.m; sourceTree = "<group>"; };
+		0CF1A40A1C1176270047BA86 /* MyAccountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountTableViewCell.h; sourceTree = "<group>"; };
+		0CF1A40B1C1176270047BA86 /* MyAccountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountTableViewCell.m; sourceTree = "<group>"; };
+		0CF1A40C1C1176270047BA86 /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
+		0CF1A40D1C1176270047BA86 /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
 		37989C431852727A00A97623 /* TTSliddingPageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSliddingPageDelegate.h; sourceTree = "<group>"; };
 		69B6FE8E86045500CD815749 /* libPods-UIScrollSlidingPages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIScrollSlidingPages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2035E31706475B00438E50 /* diagmonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diagmonds.png; sourceTree = "<group>"; };
@@ -271,6 +297,23 @@
 		9F7024C416DBF7270003B5FA /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				0CF1A4011C1176270047BA86 /* MyAccountTableViewCell.xib */,
+				0CF1A4021C1176270047BA86 /* couponParseClient.h */,
+				0CF1A4031C1176270047BA86 /* couponParseClient.m */,
+				0CF1A4041C1176270047BA86 /* GrouponCoupon.h */,
+				0CF1A4051C1176270047BA86 /* GrouponCoupon.m */,
+				0CF1A4061C1176270047BA86 /* GrouponDeal.h */,
+				0CF1A4071C1176270047BA86 /* GrouponDeal.m */,
+				0CF1A4081C1176270047BA86 /* MyAccountHeaderTableViewCell.h */,
+				0CF1A4091C1176270047BA86 /* MyAccountHeaderTableViewCell.m */,
+				0CF1A40A1C1176270047BA86 /* MyAccountTableViewCell.h */,
+				0CF1A40B1C1176270047BA86 /* MyAccountTableViewCell.m */,
+				0CF1A40C1C1176270047BA86 /* MyAccountViewController.h */,
+				0CF1A40D1C1176270047BA86 /* MyAccountViewController.m */,
+				0CE8723C1C10A43000923C15 /* ViewController.h */,
+				0CE8723D1C10A43000923C15 /* ViewController.m */,
+				0CE872381C10992700923C15 /* WXTabBarController.m */,
+				0CE872391C10992700923C15 /* WXTabBarController.h */,
 				0CE872251C0DD88400923C15 /* TableCells */,
 				9F2035E9170648E600438E50 /* Images */,
 				9F9B9B981703758A00CD45B4 /* TTViewController.h */,
@@ -395,6 +438,7 @@
 				9F2035E81706475B00438E50 /* readme.txt in Resources */,
 				0CE872321C0DD8E000923C15 /* AutocompleteTextFieldCell.xib in Resources */,
 				9F2035EB170648E600438E50 /* about-tomthorpelogo.png in Resources */,
+				0CF1A40E1C1176270047BA86 /* MyAccountTableViewCell.xib in Resources */,
 				0CE872371C0DD91C00923C15 /* AddImageCell.xib in Resources */,
 				0C872E241C0DBD390069B2A4 /* symbol_add.png in Resources */,
 			);
@@ -455,20 +499,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE8723E1C10A43000923C15 /* ViewController.m in Sources */,
+				0CF1A4131C1176270047BA86 /* MyAccountTableViewCell.m in Sources */,
 				9F70249616DBF6650003B5FA /* main.m in Sources */,
 				9F70249A16DBF6650003B5FA /* TTAppDelegate.m in Sources */,
+				0CE8723A1C10992700923C15 /* WXTabBarController.m in Sources */,
+				0CF1A4121C1176270047BA86 /* MyAccountHeaderTableViewCell.m in Sources */,
 				9F7024C316DBF7080003B5FA /* TTUITableViewZoomController.m in Sources */,
 				9F7024C916DBF7E20003B5FA /* TabOneViewController.m in Sources */,
 				9F7024CE16DBF7F80003B5FA /* TabTwoViewController.m in Sources */,
 				9F9B9B9B1703758A00CD45B4 /* TTViewController.m in Sources */,
+				0CF1A4111C1176270047BA86 /* GrouponDeal.m in Sources */,
 				9F9B9BA117037C0B00CD45B4 /* TTScrollSlidingPagesController.m in Sources */,
 				9F9B9BA51703836D00CD45B4 /* TTSlidingPage.m in Sources */,
 				0CE872291C0DD8AB00923C15 /* InterestCell.m in Sources */,
 				0C872DB01C0D6AB40069B2A4 /* MyAccountInformationViewController.m in Sources */,
 				9F936B55170650EF001622D8 /* TTSlidingPageTitle.m in Sources */,
 				0CE872361C0DD91C00923C15 /* AddImageCell.m in Sources */,
+				0CF1A4141C1176270047BA86 /* MyAccountViewController.m in Sources */,
+				0CF1A4101C1176270047BA86 /* GrouponCoupon.m in Sources */,
 				0CE872311C0DD8E000923C15 /* AutocompleteTextFieldCell.m in Sources */,
 				0C872DA81C0D6A6A0069B2A4 /* MyPurchasesAndCouponsViewController.m in Sources */,
+				0CF1A40F1C1176270047BA86 /* couponParseClient.m in Sources */,
 				0C872E221C0DA41D0069B2A4 /* HTAutocompleteManager.m in Sources */,
 				0C4B9ADA1C07C8780074417C /* UserAccountViewController.m in Sources */,
 				9F602A67171E083F00088A9C /* TTBlackTriangle.m in Sources */,

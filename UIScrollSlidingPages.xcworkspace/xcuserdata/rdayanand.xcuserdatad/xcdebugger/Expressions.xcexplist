@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "_dispatch_once [inlined]:once.h">
+      </ContextState>
+      <ContextState
+         contextName = "__36-[WXTabBarController viewDidAppear:]_block_invoke_2:WXTabBarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.backingViewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

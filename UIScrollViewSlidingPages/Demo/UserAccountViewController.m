@@ -15,6 +15,7 @@
 #import "MyAccountInformationViewController.h"
 #import "MyInterestsViewController.h"
 #import "MyPurchasesAndCouponsViewController.h"
+#import "MyAccountViewController.h"
 
 @interface UserAccountViewController () <TTSlidingPagesDataSource, TTSliddingPageDelegate>
 @property (strong, nonatomic) TTScrollSlidingPagesController *slider;
@@ -48,7 +49,7 @@
     UIViewController *viewController = [[UIViewController alloc] init];
     switch (index) {
         case 0:
-            viewController = [[MyPurchasesAndCouponsViewController alloc] init];
+            viewController = [[MyAccountViewController alloc] init];
             break;
         case 1:
             viewController = [[MyInterestsViewController alloc] init];
